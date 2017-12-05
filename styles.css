@@ -1,8 +1,8 @@
 .webpage-body{ 
-    background-color: #5FB2EF;
+    background-color: rgb(88, 88, 88);
 }
 hr{
     border: 0;
     height: 1px;
-    background: #050471;
+    background: #00000000;
 }
