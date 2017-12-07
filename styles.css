@@ -1,8 +1,15 @@
 .webpage-body{ 
-    background-color: rgb(88, 88, 88);
+    background-color: black;
 }
 hr{
     border: 0;
     height: 1px;
-    background: #00000000;
+    background: black;
 }
+p{color: #FFFFFF;}
+a{color: #FFFFFF;}
+h1{color: #FFFFFF;}
+h3{color: #FFFFFF;}
+h6{color: #FFFFFF;}
+hr{color:#FFFFFF;
+    background-color:#FFFFFF;}
