@@ -16,6 +16,27 @@ hr{
     background-color:#FFFFFF;
 }
 
+.team-box{
+    background: #1892ca;
+    min-width: 256px;
+    max-width: 256px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    margin: 0px;
+    line-height: 100%;
+}
+
+.team-overview{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    line-height: 500%;
+}
+
+
     
 .topnav {
     overflow: hidden;
