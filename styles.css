@@ -10,7 +10,7 @@ p{color: #FFFFFF;}
 a{color: #FFFFFF;}
 h1{color: #FFFFFF;}
 h3{color: #FFFFFF;}
-h6{color: #FFFFFF;}
+h6, h4{color: #FFFFFF;}
 hr{
     color:#FFFFFF;
     background-color:#FFFFFF;
@@ -23,9 +23,21 @@ hr{
     padding-left: 5px;
     padding-bottom: 5px;
     padding-right: 5px;
-    padding-top: 1px;
+    padding-top: 5px;
     margin: 0px;
-    line-height: 100%;
+}
+
+.account-box{
+    background: #1892ca;
+    min-width: 220px;
+    max-width: 220px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    margin: 5px;
+    line-height: 20%;
+
 }
 
 .team-overview{
@@ -33,7 +45,7 @@ hr{
     padding-bottom: 5px;
     padding-right: 5px;
     padding-top: 1px;
-    line-height: 500%;
+    line-height: 100%;
 }
 
 
@@ -69,4 +81,21 @@ color: black;
 .topnav a.active {
 background-color: #8acdf3;
 color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr, td{
+    height: 40px;
+}
+
+table, th, td {
+    background: rgb(61, 61, 61);
+    color: rgb(193, 225, 255);
+    border: 1px solid rgb(160, 160, 160);
+}
+.person-color{
+    color: rgb(111, 185, 255);
 }
