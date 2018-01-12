@@ -1,0 +1,2 @@
+Testing the Cannon Robot's Lights=pictures/team pictures/cannonbot/bright.png
+The Cannon Robot on the field during the homecoming game=pictures/team pictures/cannonbot/cannonbot.jpg

@@ -5,9 +5,10 @@
 <head>
 	<title>Inspire Robotics #4283</title>
 	<link rel="stylesheet" href="styles.css">
-	<script src="js/pictures.js" />
+	<script src="js/pictures.js"></script>
 </head>
-<body style="background-color:black">
+
+<body style="background-color:black" onload=init()>
 	<center>
 		<div class="topnav">
 			<a href="index.html">Home</a>
@@ -20,7 +21,16 @@
 			<a href="Calendar.html">Calendar</a>
 			<a href="Pictures.html" class="active">Pictures</a>
 		</div>
-		<img src="pictures/team logos/inspirelogo.jpg"></img>
+
+		<h1 style="vertical-align:top;font-size:50px">
+			Pictures
+		</h1>
+
+		<div class="picture-frame">
+			<img id="frame" src="pictures/team logos/inspirelogo.jpg" width="650"></img>
+			<h1 id="pic-name" ></h1>
+		</div>
+
 	</center>
 </body>
 
