@@ -5,7 +5,7 @@ The Inspire Robotics Website
 
 ## Directories
 
-#### Pictures
+### Pictures
 This holds all of the pictures on the website.
 
 
