@@ -33,6 +33,9 @@ function parseImgFile(request) {
 function startFrame(){
     frame.src = imgSrcs[currentImg];
 
+    //Start at the end to see the most recently added first
+    currentImg = imgSrcs.length - 3;
+
     setInterval(update, 3500);
 }
 
