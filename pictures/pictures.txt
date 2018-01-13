@@ -1,2 +1,8 @@
+// Cannon Robot
 Testing the Cannon Robot's Lights=pictures/team pictures/cannonbot/bright.png
 The Cannon Robot on the field during the homecoming game=pictures/team pictures/cannonbot/cannonbot.jpg
+The Cannon Robot waiting to enter the field=pictures/team pictures/cannonbot/game1.png
+The Cannon Robot waiting to fire into the crowd=pictures/team pictures/cannonbot/game2.png
+The Cannon Robot waiting to enter the crowd=pictures/team pictures/cannonbot/game3.png
+// Outreach
+Raising Awareness about STEM on Halloween Night=pictures/team pictures/outreach/trick-or-treat.png

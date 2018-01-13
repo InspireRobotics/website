@@ -17,12 +17,14 @@ function parseImgFile(request) {
     imgNames = [];
 
     request.response.split("\n").forEach(function (item, index, array) {
-        var separator = item.indexOf("=");
-        var name = item.substring(0, separator);
-        var src = item.substring(separator + 1);
-
-        imgSrcs.push(src);
-        imgNames.push(name);
+        if(!(item.startsWith("//") || item.startsWith("\n"))){
+            var separator = item.indexOf("=");
+            var name = item.substring(0, separator);
+            var src = item.substring(separator + 1);
+    
+            imgSrcs.push(src);
+            imgNames.push(name);
+        }
     });
 
     startFrame();
