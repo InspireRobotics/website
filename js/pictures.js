@@ -33,7 +33,7 @@ function parseImgFile(request) {
 function startFrame(){
     frame.src = imgSrcs[currentImg];
 
-    setInterval(update, 2000);
+    setInterval(update, 3500);
 }
 
 function update(){
