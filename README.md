@@ -49,3 +49,14 @@ You can also add comments by **starting a line** with "//". For example:
 A Big Car=cars.com/big.png
 ```
 would only add one picture to the gallery.
+
+### Please Note
+Please note that the picture gallery will not work on chrome when using file://. To get around this you can host a local server by calling
+```
+python -m SimpleHTTPServer 8001
+```
+and then opening
+```
+http://localhost:4283/Pictures.html
+```
+The reason for this is the gallery makes an HTTP Request to grab the pictures and chrome won't let file:// AJAX. 
