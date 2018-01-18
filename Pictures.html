@@ -5,25 +5,32 @@
 <head>
 	<title>Inspire Robotics #4283</title>
 	<link rel="stylesheet" href="styles.css">
+	<script src="js/pictures.js"></script>
 </head>
 
-<body style="background-color:black">
+<body style="background-color:black" onload=init()>
 	<center>
 		<div class="topnav">
 			<a href="index.html">Home</a>
 			<a href="About Us.html">About Us</a>
 			<a href="Contact Us.html">Contact Us</a>
 			<a href="T-Shirt Cannon.html">CannonBot</a>
-			<a class="active" href="FRC.html">FRC</a>
+			<a href="FRC.html">FRC</a>
 			<a href="FTC.html">FTC</a>
 			<a href="Fundraising.html">Fundraising</a>
 			<a href="Calendar.html">Calendar</a>
-			<a href="Pictures.html">Pictures</a>
+			<a href="Pictures.html" class="active">Pictures</a>
 		</div>
-		<h1>First Robotics Competition</h1>
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HZbdwYiCY74?rel=0" frameborder="2" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-		<hr />
-		<h6>Copyright Eastern Ohio Robotics 2017</h6>
+
+		<h1 style="vertical-align:top;font-size:50px">
+			Pictures
+		</h1>
+
+		<div class="picture-frame">
+			<img id="frame" src="https://cdn-images-1.medium.com/max/1600/0*-IoUUPvNx3NihgGi.gif" width="650"></img>
+			<h1 id="pic-name" ></h1>
+		</div>
+
 	</center>
 </body>
 

@@ -1,0 +1,15 @@
+// Outreach
+Raising Awareness about STEM on Halloween Night=pictures/team pictures/outreach/trick-or-treat.png
+// Cannon Robot
+Testing the Cannon Robot's Lights=pictures/team pictures/cannonbot/bright.png
+The Cannon Robot on the field during the homecoming game=pictures/team pictures/cannonbot/cannonbot.jpg
+The Cannon Robot waiting to enter the field=pictures/team pictures/cannonbot/game1.png
+The Cannon Robot waiting to fire into the crowd=pictures/team pictures/cannonbot/game2.png
+The Cannon Robot waiting to enter the crowd=pictures/team pictures/cannonbot/game3.png
+The Cannon Robot's drivetrain=pictures/team pictures/cannonbot/cannon bot drivetrain.png
+The Cannon Robot's front side=pictures/team pictures/cannonbot/cannon front.png
+The first version of the tee shirt cannon=pictures/team pictures/cannonbot/cannon prototype.png
+// FTC 2017
+First Kiwi Prototype=pictures/team pictures/ftc 2017/drivetrain prototype.png
+Early Version of the Gyro Code=pictures/team pictures/ftc 2017/gyro code.png
+Early Version of the Gyro Code=pictures/team pictures/ftc 2017/intake-prototype.png
