@@ -16,6 +16,15 @@ hr{
     background-color:#FFFFFF;
 }
 
+#bio-box{
+    background-color: #3050a7;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
 .team-box{
     background: #1892ca;
     min-width: 256px;
