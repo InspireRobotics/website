@@ -30,11 +30,11 @@ function fromDir(startPath, filter) {
 }
 
 // Delete out the previous build
-del.sync(["build/*"])
+del.sync(["docs/*"])
 
-// Copy all of the files from the src directory to the build directory
-ncp("./src", "./build", () => {
-    const htmlFiles = fromDir("./build", ".html")
+// Copy all of the files from the src directory to the docs directory
+ncp("./src", "./docs", () => {
+    const htmlFiles = fromDir("./docs", ".html")
     htmlFiles.forEach(file => {
         injectTemplates(file)
     })
