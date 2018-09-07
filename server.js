@@ -20,8 +20,8 @@ watch("templates", {recursive: true}, rebuildProject)
 // Build the express server to allow for static file serving
 const app = express()
 
-// Mark the public folder as the build directory
-const publicDir = path.join(__dirname, "build")
+// Mark the public folder as the docs directory
+const publicDir = path.join(__dirname, "docs")
 
 // The server should run on port 3000
 const PORT = process.env.PORT || 3000
