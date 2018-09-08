@@ -50,6 +50,7 @@ hr {
     margin-left: 11%;
     max-width: 70%;
     margin-right: 11%;
+    display: table;
 }
 
 .page-box p {
@@ -149,10 +150,6 @@ table, th, td {
     color: rgb(193, 225, 255);
     border: 1px solid rgb(160, 160, 160);
     padding: 5px;
-}
-
-.person-color {
-    color: rgb(111, 185, 255);
 }
 
 .mobile-hamburger-container {
