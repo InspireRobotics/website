@@ -58,6 +58,9 @@ hr {
     margin-right: 5%;
 }
 
+.page-box a{
+   color: mediumblue;
+}
 .team-box {
     background: #1892ca;
     min-width: 256px;
