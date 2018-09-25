@@ -268,7 +268,7 @@ a.pswp__share--download:hover {
   min-height: 44px; }
   .pswp__caption small {
     font-size: 11px;
-    color: #BBB; }
+    color: cornsilk }
 
 .pswp__caption__center {
   text-align: center;
@@ -277,7 +277,7 @@ a.pswp__share--download:hover {
   font-size: 30px;
   padding: 10px;
   line-height: 30px;
-  color: #CCC; }
+  color: cornsilk}
 
 .pswp__caption--empty {
   display: none; }

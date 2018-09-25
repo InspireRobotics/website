@@ -4,9 +4,10 @@
 
 <head>
 	{{{head.html}}}
+	{{{photoswipe.html}}}
 </head>
 
-<body class="webpage-body">
+<body class="webpage-body" onload="loadGallery()">
 	<center>
 		{{{header.html}}}
 		<div class="page-box">
@@ -21,11 +22,34 @@
 				or treat as well as the Candlelight walking tour. But if you want to see the bot in action, come see us at the Granville
 				High School football games!
 			</p>
-			<img src="assets/team_pictures/cannonbot/bright.png" height="300" />
-			<img src="assets/team_pictures/cannonbot/game1.png" height="300" />
-			<img src="assets/team_pictures/cannonbot/game2.png" height="300" />
-			<img src="assets/team_pictures/cannonbot/cannonbot.jpg" height="300">
+
+			{img}
+			"src" : "assets/team_pictures/cannonbot/cannonbot.jpg",
+			"size" : "2048x1365",
+			"caption" : "The t-shirt cannon at the high school football game"
+			{img}
+	
+			{img}
+			"src" : "assets/team_pictures/cannonbot/bright.png",
+			"size" : "2048x1365",
+			"caption" : "A test of the t-shirt cannons LEDs"
+			{img}
+
+			{img}
+			"src" : "assets/team_pictures/cannonbot/game1.png",
+			"size" : "2048x1365",
+			"caption" : "The team preparing to drive onto the track at the football game"
+			{img}
+
+			{img}
+			"src" : "assets/team_pictures/cannonbot/game2.png",
+			"size" : "2048x1365",
+			"caption" : "Shooting the t-shirt cannon with the cheerleaders"
+			{img}
+
 			<h6>Copyright Eastern Ohio Robotics 2018</h6>
+
+			{{{photobody.html}}}
 		</div>
 	</center>
 </body>

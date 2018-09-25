@@ -4,9 +4,10 @@
 
 <head>
     {{{head.html}}}
+    {{{photoswipe.html}}}
 </head>
 
-<body class="webpage-body">
+<body class="webpage-body" onload="loadGallery()">
     <center>
         {{{header.html}}}
 
@@ -14,24 +15,63 @@
             <h1>Sumobots</h1>
             <p>
                 The team’s second outreach method is from Granville Robotics are the sumo bots. The sumo bots serve a
-                dual purpose, to show the general public amazing robots to get them involved in STEM programs themselves,
+                dual purpose, to show the general public amazing robots to get them involved in STEM programs
+                themselves,
                 and to let the members of the teams form their own groups and compete to see who can make the best bot!
                 The robots are built in the off-season after FRC while things are cooling off after a very intense
-                season. The robots are built by groups of members from both INSPIRE Robotics and Missing Parts that form their
+                season. The robots are built by groups of members from both INSPIRE Robotics and Missing Parts that
+                form their
                 own smaller groups. Each robot is built to the specifications in the teams’ sumo bots manual.
                 These robots are a lot of fun for the members of each team to build and for people around the community
                 to drive, so someday we hope to make the sumo competition wider than just with the Granville Robotics
                 teams!
             </p>
-            <div>
-                <img src="assets/team_pictures/sumobots/driving0.png" style="display: inline-block;" height="350">
-                <img src="assets/team_pictures/sumobots/driving1.png" style="display: inline-block;" height="350">
-                <img src="assets/team_pictures/sumobots/driving2.png" style="display: inline-block;" height="350">
-                <img src="assets/team_pictures/sumobots/driving3.png" style="display: inline-block;" height="350">
-                <img src="assets/team_pictures/sumobots/robot0.jpg" style="display: inline-block;" height="350">
-                <img src="assets/team_pictures/sumobots/robot1.jpg" style="display: inline-block;" height="350">
+            <div >
+                {img}
+                "src" : "assets/team_pictures/sumobots/driving0.png",
+                "size" : "810x555",
+                "caption" : "",
+                "div_attr" : "style=\"display: inline-block;\""
+                {img}
+
+                {img}
+                "src" : "assets/team_pictures/sumobots/driving1.png",
+                "size" : "588x588",
+                "caption" : "",
+                "div_attr" : "style=\"display: inline-block;\""
+                {img}
+
+                {img}
+                "src" : "assets/team_pictures/sumobots/driving2.png",
+                "size" : "573x562",
+                "caption" : "",
+                "div_attr" : "style=\"display: inline-block;\"" 
+                {img}
+
+                {img}
+                "src" : "assets/team_pictures/sumobots/driving3.png",
+                "size" : "578x773",
+                "caption" : "",
+                "div_attr" : "style=\"display: inline-block;\"" 
+                {img}
+
+                {img}
+                "src" : "assets/team_pictures/sumobots/robot0.jpg",
+                "size" : "4032x3024",
+                "caption" : "",
+                "div_attr" : "style=\"display: inline-block;\"" 
+                {img}
+
+                {img}
+                "src" : "assets/team_pictures/sumobots/robot1.jpg",
+                "size" : "4032x3024",
+                "caption" : "",
+                "div_attr" : "style=\"display: inline-block;\"" 
+                {img}
             </div>
             <h6>Copyright Eastern Ohio Robotics 2018</h6>
+
+            {{{photobody.html}}}
         </div>
     </center>
 </body>

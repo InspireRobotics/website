@@ -24,6 +24,8 @@ function injectTemplates(filename) {
         output = output.replace("[IMG_SRC]", json.src);
         output = output.replace("[CAPTION]", json.caption);
         output = output.replace("[SIZE]", json.size);
+        output = output.replace("[DIV_ATTRS]", json.div_attr == undefined ? "": json.div_attr);
+        output = output.replace("[IMG_ATTRS]", json.img_attr == undefined ? "": json.img_attr);
 
         return output
     })
