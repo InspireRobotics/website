@@ -4,13 +4,32 @@ const {ncp} = require("ncp")
 const del = require("del")
 
 function injectTemplates(filename) {
-    let html = fs.readFileSync(filename).toString()
+    let html = fs.readFileSync(filename).toString();
+
+    //Inject templates
     html = html.replace(/{{{.*}}}/g, (match, x, y) => {
         return fs.readFileSync(`templates/${match.replace(/[{}]/g, "")}`).toString()
     })
+
+    let photoItemSrc = fs.readFileSync("templates/photoitem.html").toString();
+
+    //Inject images
+    html = html.replace(/{img}(.|\n|\r)*?{img}/g, (match, x, y) => {
+        match = match.replace("{img}", "{");
+        match = match.replace("{img}", "}");
+
+        json = JSON.parse(match);
+
+        output = photoItemSrc.replace("[IMG_SRC]", json.src);
+        output = output.replace("[IMG_SRC]", json.src);
+        output = output.replace("[CAPTION]", json.caption);
+        output = output.replace("[SIZE]", json.size);
+
+        return output
+    })
+
     fs.writeFileSync(filename, html)
     console.log("---parsed ", filename)
-
 }
 
 function fromDir(startPath, filter) {

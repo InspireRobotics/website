@@ -40,6 +40,23 @@ hr {
     background-color: #FFFFFF;
 }
 
+.title-caption{
+        text-align: center;
+        max-width: 420px;
+        margin: 0 auto;
+        font-size: 30px;
+        padding: 10px;
+        line-height: 30px;
+        color: white;
+        font-weight: bold; 
+}
+
+.gallery-img {
+    max-width: 100%; /* you can use % */
+    height: auto;
+    max-height: 500px;
+}
+
 .page-box {
     background: #1892ca;
     padding-left: 5px;
