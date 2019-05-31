@@ -58,14 +58,14 @@ hr {
 }
 
 .page-box {
-    background: #1892ca;
+    background: #005d88;
     padding-left: 5px;
     padding-bottom: 5px;
     padding-right: 5px;
     padding-top: 5px;
     margin-top: 20px;
     margin-left: 11%;
-    max-width: 70%;
+    max-width: 1000px;
     margin-right: 11%;
     display: table;
 }
